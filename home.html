@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Portfolio</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <header>
+    <div class="logo">
+      <span class="logo-text">Portfolio</span>
+    </div>
+    <nav>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="glitch" data-text="Creative Developer">Creative Developer</h1>
+        <p class="subtitle">Turning ideas into digital experiences</p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="geometric-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about reveal">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+          <div class="image-container">
+            <img src="IMG_20240419_082124_501.jpg" alt="Profile Picture">
+            <div class="image-outline"></div>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Who am I?</h3>
+          <p>I'm a passionate web developer and developer with a keen eye for detail and a love for creating engaging digital experiences. With a background in both design and development, I bring a unique perspective to every project.</p>
+          <p>My journey in Full Stack Development started 5 years ago, and since then, I've worked on a variety of projects ranging from small business websites to complex web applications.</p>
+          <div class="personal-info">
+            <div class="info-item">
+              <span class="info-label">Name:</span>
+              <span class="info-value">Mansoor Shaik</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Email:</span>
+              <span class="info-value">shaikmansoormusthafa@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Location:</span>
+              <span class="info-value">Bangaluru, Karanatka</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Freelance:</span>
+              <span class="info-value available">Available</span>
+            </div>
+          </div>
+          <a href="MANSOOR_RESUME1.pdf" download="MANSOOR_SHAIK.pdf" class="btn primary download-cv">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills reveal">
+      <div class="section-header">
+        <h2>My Skills</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-content">
+        <div class="skills-text">
+          <h3>What I'm capable of</h3>
+          <p>I specialize in building modern, responsive websites and applications using the latest technologies. My expertise spans across front-end and back-end development, with a strong focus on creating intuitive user experiences.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card" data-skill="HTML">
+            <div class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"></path></svg>
+            </div>
+            <h4>HTML5</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="95"></div>
+            </div>
+            <span class="skill-percentage">95%</span>
+          </div>
+          <div class="skill-card" data-skill="CSS">
+            <div class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+            </div>
+            <h4>CSS3</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="95"></div>
+            </div>
+            <span class="skill-percentage">95%</span>
+          </div>
+          <div class="skill-card" data-skill="JavaScript">
+            <div class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path></svg>
+            </div>
+            <h4>JavaScript</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="95"></div>
+            </div>
+            <span class="skill-percentage">95%</span>
+          </div>
+          <div class="skill-card" data-skill="UI/UX">
+            <div class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+            </div>
+            <h4>UI/UX Design</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="80"></div>
+            </div>
+            <span class="skill-percentage">80%</span>
+          </div>
+          <div class="skill-card" data-skill="Responsive">
+            <div class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+            </div>
+            <h4>Responsive Design</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="100"></div>
+            </div>
+            <span class="skill-percentage <div class="skill-progress" data-progress="95"></div>
+            </div>
+            <span class="skill-percentage">95%</span>
+          </div>
+          <div class="skill-card" data-skill="Backend">
+            <div class="skill-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            </div>
+            <h4>Backend Development</h4>
+            <div class="skill-bar">
+              <div class="skill-progress" data-progress="100"></div>
+            </div>
+            <span class="skill-percentage">95%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects reveal">
+      <div class="section-header">
+        <h2>My Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Design</button>
+        <button class="filter-btn" data-filter="app">App Development</button>
+        <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="web">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="E-commerce Website">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h4>E-commerce Website</h4>
+                <p>Web Design</p>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="app">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Mobile App">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h4>Fitness Tracker App</h4>
+                <p>App Development</p>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="ui">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="UI Design">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h4>Dashboard UI Design</h4>
+                <p>UI/UX Design</p>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="web">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Portfolio Website">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h4>Portfolio Website</h4>
+                <p>Web Design</p>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="app">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Weather App">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h4>Weather App</h4>
+                <p>App Development</p>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="ui">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Website Redesign">
+            <div class="project-overlay">
+              <div class="project-info">
+                <h4>Website Redesign</h4>
+                <p>UI/UX Design</p>
+                <a href="#" class="project-link">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's work together</h3>
+          <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-text">
+                <h4>Email</h4>
+                <p>shaikmansoormusthafa@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-text">
+                <h4>Phone</h4>
+                <p>+91 7995441495</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-text">
+                <h4>Location</h4>
+                <p>Bangaluru, Karanatka</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/mansoor-shaik79/" class="social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+              <label for="subject">Subject</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <span class="logo-text">Portfolio</span>
+      </div>
+      <p>© 2021 Mansoor All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="home.js"></script>
+</body>
+</html>
